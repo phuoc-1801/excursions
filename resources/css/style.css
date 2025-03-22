@@ -1,0 +1,92 @@
+*{
+    background-color: black;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.header p {
+    text-align: center;
+}
+
+.header a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.personal h2 {
+    font-weight: 300px;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+.personal p {
+    color: gray;
+    font-size: 21px;
+    text-align: center;
+}
+
+.personal img {
+    width: 60%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer h2 {
+    color: white;
+    font-weight: 300px;
+    font-size: 42px;
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.copyright {
+    color: grey;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 21px;
+}
